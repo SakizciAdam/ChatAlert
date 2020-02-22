@@ -1,0 +1,17 @@
+#https://helpch.at/docs/1.12.2/org/bukkit/Sound.html list of the sounds
+Messages:
+  enable: '&aChatAlert has been enabled!'
+  disable: '&cOh ok bye!'
+  noperm: '&cYou do not have permission to use this command!'
+  alert: 
+  - '&6&k---&r&dAlert&r&6&k---&r'
+  - '&7 %alert%'
+  help: 
+  - '&6Commands'
+  - '&7/chatalert <msg>'
+  
+Settings:
+  Sound:
+   enabled: true
+   type: ENTITY_ENDERDRAGON_AMBIENT 
+   sendtoeveryone: false

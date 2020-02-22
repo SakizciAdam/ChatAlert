@@ -1,0 +1,14 @@
+name: ChatAlert
+main: me.chatalert.Main
+author: [Sarimsak2000, SakizciAdam]
+version: 1.3
+description: You can make Alert in your server!
+commands:
+  chatalert:
+    aliases: [ca]
+    usage: /<command>
+    description: Chat Alert Main Command
+permissions:
+  chatalert.admin:
+    default: op
+    description: Allows user to use /chatalert
